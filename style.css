@@ -1,0 +1,59 @@
+/*
+Theme Name: RSGP
+Theme URI: https://hodessy.com
+Author: the Hodessy Team
+Author URI: https://portal.hodessy.com
+Description: Child theme for the theme created for siegelportrait design by Hodessy, LLC
+Requires at least: 5.8
+Tested up to: 5.9
+Requires PHP: 5.7
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: siegelspd
+Text Domain: rsgp
+Tags: one-column, wide-blocks, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready
+*/
+footer.wp-block-template-part {
+    margin-block-start: 0;
+}
+.row-4 {
+    min-width: 25%;
+}
+.row-2 {
+    min-width: 50%;
+}
+.row-3 {
+    min-width: 33.33%;
+}
+ul.wp-block-navigation__submenu-container.has-text-color.has-luminous-vivid-amber-color.has-background.has-custom-base-background-color.wp-block-navigation-submenu {
+    padding: unset;
+}
+
+.menu-btn {
+    padding: 8px 18px !important;
+    background: transparent;
+    border: solid 2px;
+    width: fit-content;
+}
+/*
+.is-style-checkbox li:before {
+    top: auto !important;
+    transform: 0;
+}
+*/
+button.jet-form-builder__submit {
+    display: inline-flex;
+    justify-content: flex-start;
+    background: var(--wp--preset--color--custom-accent);
+    border: none;
+    padding: 12px 28px;
+    color: var(--wp--preset--color--custom-contrast);
+    font-size: var(--wp--preset--font-size--small);
+    text-transform: uppercase;
+    font-family: var(--wp--preset--font-family--fira-sans);
+    cursor: pointer;
+}
+button.jet-form-builder__submit:hover{
+    background: var(--wp--preset--color--black);
+}
